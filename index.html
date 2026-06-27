@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ON Gold Standard — Molecular Precision</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Share+Tech+Mono&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="spotlight"></div>
+
+<nav id="mainNav">
+  <a href="#" class="nav-logo">
+    <div class="logo-mark">ON</div>
+    Gold Standard
+  </a>
+  <ul class="nav-links">
+    <li><a href="#features">Science</a></li>
+    <li><a href="#molecule">Formula</a></li>
+    <li><a href="#timeline">Legacy</a></li>
+    <li><a href="#product">Product</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-cta">Get Yours</button>
+</nav>
+
+<section id="hero">
+  <div class="hero-video-wrap">
+    <video autoplay muted loop playsinline>
+      <source src="assets/videos/Make_a_x_D_video_of_.mov" type="video/mov">
+    </video>
+  </div>
+  <div class="hero-overlay"></div>
+  <canvas id="dnaCanvas"></canvas>
+
+  <div class="hero-content">
+    <div class="hero-tag">SEQUENCE A2 · WHEY ISOLATE · AMINO MATRIX</div>
+    <h1 class="hero-headline">
+      <span class="line"><span class="line-inner">WRITTEN</span></span>
+      <span class="line"><span class="line-inner">IN YOUR <em>DNA</em></span></span>
+    </h1>
+    <div class="hero-divider">
+      <div class="hero-divider-line"></div>
+      <div class="hero-divider-label">MOLECULAR PRECISION · GOLD STANDARD</div>
+      <div class="hero-divider-line"></div>
+    </div>
+    <p class="hero-sub">24g ultra-pure whey protein. Engineered at the molecular level to match your body's own amino acid architecture.</p>
+    <div class="hero-actions">
+      <a href="#product" class="btn-primary">Decode the Formula</a>
+      <a href="#features" class="btn-ghost">The Science</a>
+    </div>
+  </div>
+  <div class="scroll-indicator" id="scrollIndicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<div id="stats">
+  <div class="stat-item">
+    <div class="stat-num">24<span>g</span></div>
+    <div class="stat-label">Protein per Serving</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">5.5<span>g</span></div>
+    <div class="stat-label">BCAAs per Scoop</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">74</div>
+    <div class="stat-label">Servings in 5lb</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">3<span>×</span></div>
+    <div class="stat-label">Whey Sources Blended</div>
+  </div>
+</div>
+
+<section id="features">
+  <div class="features-header">
+    <div>
+      <p class="s-label">The Science</p>
+      <h2 class="s-title">Three molecular pillars of performance</h2>
+    </div>
+    <p class="features-note">Every ingredient selected for its biological role in protein synthesis, recovery, and cellular repair — not marketing.</p>
+  </div>
+  <div class="features-grid">
+
+    <div class="feature-card" id="fc1">
+      <div class="fc-corner"></div>
+      <p class="fc-num">PILLAR_01</p>
+      <div class="fc-icon">
+        <svg viewBox="0 0 24 24"><path d="M8 3c0 4 8 4 8 8s-8 4-8 8"/><path d="M16 3c0 4-8 4-8 8s8 4 8 8"/></svg>
+      </div>
+      <h3>Triple Whey Matrix</h3>
+      <p>Concentrate, isolate, and hydrolysed peptides layered in precise ratios to deliver both rapid and sustained amino acid release across your recovery window.</p>
+      <div class="fc-bar">
+        <div class="fc-bar-label"><span>Bioavailability Index</span><span>97%</span></div>
+        <div class="fc-bar-track"><div class="fc-bar-fill" data-width="97"></div></div>
+      </div>
+    </div>
+
+    <div class="feature-card" id="fc2">
+      <div class="fc-corner"></div>
+      <p class="fc-num">PILLAR_02</p>
+      <div class="fc-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M4.93 4.93l2.12 2.12m9.9 9.9 2.12 2.12M4.93 19.07l2.12-2.12m9.9-9.9 2.12-2.12"/></svg>
+      </div>
+      <h3>BCAA Ignition Complex</h3>
+      <p>Leucine, Isoleucine, and Valine in the clinically studied 2:1:1 ratio — the mTOR activation signal your muscle cells wait for post-training.</p>
+      <div class="fc-bar">
+        <div class="fc-bar-label"><span>mTOR Activation</span><span>94%</span></div>
+        <div class="fc-bar-track"><div class="fc-bar-fill" data-width="94"></div></div>
+      </div>
+    </div>
+
+    <div class="feature-card" id="fc3">
+      <div class="fc-corner"></div>
+      <p class="fc-num">PILLAR_03</p>
+      <div class="fc-icon">
+        <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+      </div>
+      <h3>Third-Party Certified</h3>
+      <p>Informed Sport batch-tested. Every container undergoes independent screening for 250+ banned substances. The label says exactly what's inside — no more.</p>
+      <div class="fc-bar">
+        <div class="fc-bar-label"><span>Label Accuracy</span><span>100%</span></div>
+        <div class="fc-bar-track"><div class="fc-bar-fill" data-width="100"></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="s-divider"></div>
+
+<section id="molecule">
+  <canvas id="molCanvas" width="480" height="420"></canvas>
+  <div class="mol-content">
+    <p class="s-label">Amino Architecture</p>
+    <h2 class="s-title">Your body reads protein at the molecular level</h2>
+    <p>Whey protein's superiority over other sources lies in its complete essential amino acid profile and exceptional leucine content — the primary trigger for muscle protein synthesis. Our formula preserves this structure through cold micro-filtration.</p>
+    <ul class="amino-list">
+      <li><span class="amino-key">Leucine</span><span class="amino-val">2.4g</span></li>
+      <li><span class="amino-key">Isoleucine</span><span class="amino-val">1.3g</span></li>
+      <li><span class="amino-key">Valine</span><span class="amino-val">1.1g</span></li>
+      <li><span class="amino-key">Glutamine</span><span class="amino-val">4.0g</span></li>
+      <li><span class="amino-key">Lysine</span><span class="amino-val">2.3g</span></li>
+      <li><span class="amino-key">Threonine</span><span class="amino-val">1.7g</span></li>
+    </ul>
+  </div>
+</section>
+
+<div class="s-divider"></div>
+
+<section id="timeline">
+  <div class="timeline-header">
+    <p class="s-label">The Legacy</p>
+    <h2 class="s-title">38 years of molecular mastery</h2>
+  </div>
+  <div class="timeline-track-wrap">
+    <div class="timeline-track" id="timelineTrack">
+      <div class="tl-item"><div class="tl-inner">
+        <div class="tl-dot"></div><span class="tl-tag">Origin</span>
+        <h3>First Whey Formula</h3>
+        <p>Optimum Nutrition establishes the first 100% whey protein concentrate, redefining what a protein supplement can be.</p>
+        <div class="tl-year">1986</div>
+      </div></div>
+      <div class="tl-item"><div class="tl-inner">
+        <div class="tl-dot"></div><span class="tl-tag">Isolation</span>
+        <h3>Cold Micro-Filtration</h3>
+        <p>Proprietary cold-process technology isolates whey at peak purity, preserving all fragile bioactive peptide fractions.</p>
+        <div class="tl-year">1994</div>
+      </div></div>
+      <div class="tl-item"><div class="tl-inner">
+        <div class="tl-dot"></div><span class="tl-tag">Launch</span>
+        <h3>Gold Standard Born</h3>
+        <p>Triple-blended whey — concentrate, isolate, and peptides — combined in a single breakthrough formula.</p>
+        <div class="tl-year">2001</div>
+      </div></div>
+      <div class="tl-item"><div class="tl-inner">
+        <div class="tl-dot"></div><span class="tl-tag">Dominance</span>
+        <h3>23-Year #1 Rank</h3>
+        <p>Awarded top-selling protein globally by Bodybuilding.com for 23 consecutive years. No other brand comes close.</p>
+        <div class="tl-year">2016</div>
+      </div></div>
+      <div class="tl-item"><div class="tl-inner">
+        <div class="tl-dot"></div><span class="tl-tag">Transparency</span>
+        <h3>Informed Sport Certified</h3>
+        <p>Independent third-party batch testing for 250+ banned substances introduced across all production lines.</p>
+        <div class="tl-year">2021</div>
+      </div></div>
+      <div class="tl-item"><div class="tl-inner">
+        <div class="tl-dot"></div><span class="tl-tag">Evolution</span>
+        <h3>Zero Compromise Era</h3>
+        <p>Sustainably sourced whey, next-gen flavour systems, and continuing refinement with no compromise on protein density.</p>
+        <div class="tl-year">2024</div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<div class="s-divider"></div>
+
+<section id="product">
+  <div class="product-3d-wrap">
+    <div class="product-3d" id="product3d">
+      <div class="product-glow"></div>
+      <img src="assets/images/OaIP-1673444891.jpeg" alt="ON Gold Standard Whey — Double Rich Chocolate">
+    </div>
+  </div>
+  <div class="product-content">
+    <p class="s-label">The Product</p>
+    <h2 class="s-title">Gold Standard 100% Whey</h2>
+    <p>Five pounds of the world's most precisely formulated protein. 74 servings. Double Rich Chocolate. The canister that started a category and still leads it.</p>
+    <table class="spec-table">
+      <tr><td class="sk">Protein per Serving</td><td class="sv">24g</td></tr>
+      <tr><td class="sk">BCAA Content</td><td class="sv">5.5g</td></tr>
+      <tr><td class="sk">Glutamine Precursors</td><td class="sv">4g</td></tr>
+      <tr><td class="sk">Sugar per Serving</td><td class="sv">1g</td></tr>
+      <tr><td class="sk">Servings per Container</td><td class="sv">74</td></tr>
+      <tr><td class="sk">Net Weight</td><td class="sv">5.05 lb / 2.29 kg</td></tr>
+    </table>
+    <a href="#contact" class="btn-primary">Request Information</a>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-inner">
+    <p class="s-label">Contact</p>
+    <h2 class="s-title">Start the conversation</h2>
+    <p>Wholesale enquiries, partnerships, or questions about our formulation science — our team is ready.</p>
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" placeholder="Alex">
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" placeholder="Chen">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="alex@example.com">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Tell us what you need..."></textarea>
+      </div>
+      <div class="form-submit">
+        <button type="submit" class="btn-submit">Transmit Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="f-logo"><span>ON</span>Gold Standard</div>
+  <p>© 2024 Optimum Nutrition. Molecular Precision. Zero Compromise.</p>
+  <p>Engineered for Peak Performance.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
